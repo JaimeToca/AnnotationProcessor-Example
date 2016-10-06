@@ -8,5 +8,5 @@ import static java.lang.annotation.ElementType.FIELD;
 @Target(value = FIELD)
 @Retention(RetentionPolicy.SOURCE)
 public @interface InjectContent {
-    String key() default "noKey";
+    String key();
 }

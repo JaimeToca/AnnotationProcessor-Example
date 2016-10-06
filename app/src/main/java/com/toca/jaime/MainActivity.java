@@ -14,6 +14,7 @@ public class MainActivity extends Activity {
     @InjectContent(key = SALUDO_KEY)
     TextView mTvHello;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

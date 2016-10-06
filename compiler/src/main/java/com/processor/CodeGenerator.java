@@ -26,7 +26,9 @@ final class CodeGenerator {
         return methodBuilder("injectMainActivityContent")
                 .addModifiers(PUBLIC, STATIC)
                 .addParameter(get(annotatedField.getTypeElement().asType()), "mainActivity")
-                .addStatement("mainActivity.mTvHello.setText(\"hola\")")
+                .addStatement("mainActivity." + "mTvHello.setText(\"prueba\")")
+        //        .addStatement("mainActivity."+ annotatedField.getVariableName() + ".setText(\"prueba\")")
+                //.addStatement("mainActivity."+ annotatedField.getVariableName() + ".setText(LocalizablesFacade.getString(getActivity(), OneCMSKeys." + annotatedField.getOneCMSKey() + "))")
                 .returns(TypeName.VOID)
                 .build();
     }
