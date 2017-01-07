@@ -1,2 +1,2 @@
 #Annotation Processor Example#
-Slides: http://www.slideshare.net/JaimeTocaMuoz/java-annotation-processor-android
+Slides: https://speakerdeck.com/jaimetoca/java-annotation-processor
